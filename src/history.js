@@ -1,4 +1,4 @@
-var $ = $ || window.require && require("common:widget/ui/jquery/jquery.js");
+var $ = window.jQuery || window.require && require("common:widget/ui/jquery/jquery.js");
 var History = function() {
 
     // whether support html5 history API
@@ -63,4 +63,4 @@ var History = function() {
 
 };
 
-window.module && (module.exports = History);
+module.exports = History;
