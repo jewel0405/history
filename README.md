@@ -2,6 +2,10 @@
 
 simulate history with either HTML5 History API or hashchange
 
+## Demo
+
+http://global-hao123.github.io/history
+
 ## Compatibility
 
 Chrome 1+ / Firefox 10+ / Opera 9+ / IE 8+
@@ -19,7 +23,7 @@ Chrome 1+ / Firefox 10+ / Opera 9+ / IE 8+
         var newHash = HASHLIST[index];
         // bind trigger
         historyObj.pushState(newHash);
-    });    
+    });
 
     // capture history custom event
     $(historyObj).on("popstate", function(e, hash) {
@@ -40,4 +44,4 @@ Chrome 1+ / Firefox 10+ / Opera 9+ / IE 8+
 
 ## Changelog
 * 2014/07/28 prototype 1
-    
+
