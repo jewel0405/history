@@ -2,10 +2,6 @@
 
 simulate history with either HTML5 History API or hashchange
 
-## Demo
-
-http://global-hao123.github.io/history
-
 ## Compatibility
 
 Chrome 1+ / Firefox 10+ / Opera 9+ / IE 8+
